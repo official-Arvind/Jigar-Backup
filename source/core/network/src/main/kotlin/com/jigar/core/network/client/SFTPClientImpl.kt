@@ -14,10 +14,10 @@ import com.jigar.core.util.LogUtil
 import com.jigar.core.util.PathUtil
 import com.jigar.core.util.toPathList
 import com.jigar.core.util.withMainContext
-import com.jigar.libpickyou.PickYouLauncher
-import com.jigar.libpickyou.parcelables.DirChildrenParcelable
-import com.jigar.libpickyou.parcelables.FileParcelable
-import com.jigar.libpickyou.ui.model.PickerType
+import com.xayah.libpickyou.PickYouLauncher
+import com.xayah.libpickyou.parcelables.DirChildrenParcelable
+import com.xayah.libpickyou.parcelables.FileParcelable
+import com.xayah.libpickyou.ui.model.PickerType
 import net.schmizz.sshj.SSHClient
 import net.schmizz.sshj.sftp.FileMode
 import net.schmizz.sshj.sftp.OpenMode

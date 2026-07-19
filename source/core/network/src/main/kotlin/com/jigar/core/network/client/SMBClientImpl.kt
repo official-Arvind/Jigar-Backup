@@ -33,10 +33,10 @@ import com.jigar.core.util.SymbolUtil
 import com.jigar.core.util.toPathList
 import com.jigar.core.util.withLog
 import com.jigar.core.util.withMainContext
-import com.jigar.libpickyou.PickYouLauncher
-import com.jigar.libpickyou.parcelables.DirChildrenParcelable
-import com.jigar.libpickyou.parcelables.FileParcelable
-import com.jigar.libpickyou.ui.model.PickerType
+import com.xayah.libpickyou.PickYouLauncher
+import com.xayah.libpickyou.parcelables.DirChildrenParcelable
+import com.xayah.libpickyou.parcelables.FileParcelable
+import com.xayah.libpickyou.ui.model.PickerType
 import java.io.File
 import java.io.IOException
 

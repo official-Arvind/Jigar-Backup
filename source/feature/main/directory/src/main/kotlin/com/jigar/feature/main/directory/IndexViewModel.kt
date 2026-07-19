@@ -10,9 +10,9 @@ import com.jigar.core.ui.viewmodel.BaseViewModel
 import com.jigar.core.ui.viewmodel.IndexUiEffect
 import com.jigar.core.ui.viewmodel.UiIntent
 import com.jigar.core.ui.viewmodel.UiState
-import com.jigar.libpickyou.PickYouLauncher
-import com.jigar.libpickyou.ui.model.PermissionType
-import com.jigar.libpickyou.ui.model.PickerType
+import com.xayah.libpickyou.PickYouLauncher
+import com.xayah.libpickyou.ui.model.PermissionType
+import com.xayah.libpickyou.ui.model.PickerType
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow

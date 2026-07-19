@@ -36,9 +36,9 @@ import com.jigar.core.ui.component.IconButton
 import com.jigar.core.ui.component.LocalSlotScope
 import com.jigar.core.ui.component.ModalDropdownMenu
 import com.jigar.core.ui.component.confirm
-import com.jigar.libpickyou.PickYouLauncher
-import com.jigar.libpickyou.ui.model.PermissionType
-import com.jigar.libpickyou.ui.model.PickerType
+import com.xayah.libpickyou.PickYouLauncher
+import com.xayah.libpickyou.ui.model.PermissionType
+import com.xayah.libpickyou.ui.model.PickerType
 
 @Composable
 internal fun ListActions(

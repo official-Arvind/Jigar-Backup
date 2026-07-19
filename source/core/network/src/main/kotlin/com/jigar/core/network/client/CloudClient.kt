@@ -9,7 +9,7 @@ import com.jigar.core.model.database.SMBExtra
 import com.jigar.core.model.database.WebDAVExtra
 import com.jigar.core.network.util.getExtraEntity
 import com.jigar.core.rootservice.parcelables.PathParcelable
-import com.jigar.libpickyou.parcelables.DirChildrenParcelable
+import com.xayah.libpickyou.parcelables.DirChildrenParcelable
 
 interface CloudClient {
     fun connect()
