@@ -20,7 +20,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--dontwarn com.xayah.**
+-dontwarn com.jigar.**
 -dontwarn android.**
 -dontwarn com.android.**
 -dontwarn dalvik.system.**
@@ -44,7 +44,7 @@
 
 -keepattributes SourceFile,LineNumberTable        # Keep file names and line numbers.
 -keep public class * extends java.lang.Exception  # Optional: Keep custom exceptions.
--keep class com.xayah.** { *; }
+-keep class com.jigar.** { *; }
 -keep class android.** { *; }
 -keep class com.android.** { *; }
 -keep class dalvik.system.** { *; }

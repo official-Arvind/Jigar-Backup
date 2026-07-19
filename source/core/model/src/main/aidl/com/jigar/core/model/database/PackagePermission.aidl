@@ -1,2 +1,2 @@
-package com.xayah.core.model.database;
+package com.jigar.core.model.database;
 parcelable PackagePermission;

@@ -1,8 +1,8 @@
-package com.xayah.core.rootservice;
+package com.jigar.core.rootservice;
 
-import com.xayah.core.rootservice.parcelables.StatFsParcelable;
-import com.xayah.core.rootservice.parcelables.StorageStatsParcelable;
-import com.xayah.core.model.database.PackagePermission;
+import com.jigar.core.rootservice.parcelables.StatFsParcelable;
+import com.jigar.core.rootservice.parcelables.StorageStatsParcelable;
+import com.jigar.core.model.database.PackagePermission;
 
 interface IRemoteRootService {
     StatFsParcelable readStatFs(String path);

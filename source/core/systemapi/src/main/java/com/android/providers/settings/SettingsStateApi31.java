@@ -36,7 +36,7 @@ import android.util.XmlApi30;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.RequiresApi;
 
-import com.xayah.core.common.util.BuildConfigUtil;
+import com.jigar.core.common.util.BuildConfigUtil;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

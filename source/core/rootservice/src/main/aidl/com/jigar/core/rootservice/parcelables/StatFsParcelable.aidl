@@ -1,2 +1,2 @@
-package com.xayah.core.rootservice.parcelables;
+package com.jigar.core.rootservice.parcelables;
 parcelable StatFsParcelable;
