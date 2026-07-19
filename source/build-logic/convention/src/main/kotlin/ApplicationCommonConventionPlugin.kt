@@ -12,12 +12,15 @@ private fun Project.configureCommon() {
     pluginManager.apply("org.jetbrains.kotlin.android")
 
     extensions.getByType<ApplicationExtension>().apply {
-        signingConfigs {
-            create("release") {
-                storeFile = file(System.getenv("STORE_FILE")?.takeIf { it.isNotBlank() } ?: "placeholder")
-                storePassword = System.getenv("STORE_PASSWORD") ?: ""
-                keyAlias = System.getenv("KEY_ALIAS") ?: ""
-                keyPassword = System.getenv("KEY_PASSWORD") ?: ""
+        val storeFileEnv = System.getenv("STORE_FILE")
+        if (!storeFileEnv.isNullOrBlank()) {
+            signingConfigs {
+                create("release") {
+                    storeFile = file(storeFileEnv)
+                    storePassword = System.getenv("STORE_PASSWORD") ?: ""
+                    keyAlias = System.getenv("KEY_ALIAS") ?: ""
+                    keyPassword = System.getenv("KEY_PASSWORD") ?: ""
+                }
             }
         }
 
@@ -27,7 +30,7 @@ private fun Project.configureCommon() {
                 isShrinkResources = true
                 proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
                 buildConfigField("Boolean", "ENABLE_VERBOSE", "false")
-                signingConfig = signingConfigs.getByName("release")
+                signingConfig = signingConfigs.findByName("release") ?: signingConfigs.getByName("debug")
             }
             debug {
                 isMinifyEnabled = false
