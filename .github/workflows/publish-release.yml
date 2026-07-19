@@ -54,7 +54,9 @@ jobs:
           STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-        run: ./gradlew assembleRelease --daemon --parallel
+          # Maximize RAM (8GB to Gradle) and enable global caching
+          GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx8g -XX:+UseG1GC -Dorg.gradle.parallel=true -Dorg.gradle.caching=true"
+        run: ./gradlew assembleRelease --daemon --parallel --build-cache --max-workers=4
 
       - name: Publish Release to GitHub
         uses: softprops/action-gh-release@v1
