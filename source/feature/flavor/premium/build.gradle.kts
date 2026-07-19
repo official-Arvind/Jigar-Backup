@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.feature.flavor.premium"
+    namespace = "com.jigar.feature.flavor.premium"
 }
 
 dependencies {

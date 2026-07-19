@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.feature.main.restore"
+    namespace = "com.jigar.feature.main.restore"
 }
 
 dependencies {

@@ -15,7 +15,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DataBackup"
+rootProject.name = "Jigar Backup"
 include(":app")
 include(":core:common")
 include(":core:service")

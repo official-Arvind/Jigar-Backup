@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.core.model"
+    namespace = "com.jigar.core.model"
 
     buildFeatures {
         aidl = true

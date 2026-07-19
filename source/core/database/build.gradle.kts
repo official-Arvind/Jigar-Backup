@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.core.database"
+    namespace = "com.jigar.core.database"
 }
 
 dependencies {

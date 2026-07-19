@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.feature.crash"
+    namespace = "com.jigar.feature.crash"
 }
 
 dependencies {

@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.core.data"
+    namespace = "com.jigar.core.data"
 }
 
 dependencies {

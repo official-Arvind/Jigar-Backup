@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.core.datastore"
+    namespace = "com.jigar.core.datastore"
 }
 
 dependencies {

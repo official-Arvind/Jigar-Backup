@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.feature.main.history"
+    namespace = "com.jigar.feature.main.history"
 }
 
 dependencies {

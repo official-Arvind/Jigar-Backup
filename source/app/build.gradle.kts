@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.databackup"
+    namespace = "com.jigar.Jigar Backup"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.xayah.databackup"
+        applicationId = "com.jigar.Jigar Backup"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()
@@ -69,7 +69,7 @@ android {
     applicationVariants.all {
         outputs.forEach { output ->
             (output as BaseVariantOutputImpl).outputFileName =
-                "DataBackup-${versionName}-${productFlavors[0].name}-${productFlavors[1].name}-${buildType.name}.apk"
+                "Jigar Backup-${versionName}-${productFlavors[0].name}-${productFlavors[1].name}-${buildType.name}.apk"
         }
     }
 

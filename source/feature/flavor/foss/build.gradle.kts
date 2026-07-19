@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.feature.flavor.foss"
+    namespace = "com.jigar.feature.flavor.foss"
 }
 
 dependencies {

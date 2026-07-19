@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.core.systemapi"
+    namespace = "com.jigar.core.systemapi"
 
     buildTypes {
         release {

@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.libnative"
+    namespace = "com.jigar.libnative"
     ndkVersion = "25.2.9519653"
 
     buildTypes {

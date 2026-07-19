@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.feature.main.configurations"
+    namespace = "com.jigar.feature.main.configurations"
 }
 
 dependencies {

@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".DataBackupApplication"
+        android:name=".Jigar BackupApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DataBackup"
+        android:theme="@style/Theme.Jigar Backup"
         android:usesCleartextTraffic="true"
         android:enableOnBackInvokedCallback="false"
         tools:replace="android:enableOnBackInvokedCallback"
@@ -19,7 +19,7 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:theme="@style/Theme.DataBackup.SplashScreen">
+            android:theme="@style/Theme.Jigar Backup.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

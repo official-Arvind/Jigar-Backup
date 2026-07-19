@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.feature.flavor.alpha"
+    namespace = "com.jigar.feature.flavor.alpha"
 }
 
 dependencies {

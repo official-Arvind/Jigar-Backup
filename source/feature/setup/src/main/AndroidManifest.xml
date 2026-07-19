@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name="com.xayah.feature.setup.MainActivity"
+            android:name="com.jigar.feature.setup.MainActivity"
             android:exported="false" />
     </application>
 </manifest>

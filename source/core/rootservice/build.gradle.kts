@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.core.rootservice"
+    namespace = "com.jigar.core.rootservice"
 
     buildTypes {
         release {

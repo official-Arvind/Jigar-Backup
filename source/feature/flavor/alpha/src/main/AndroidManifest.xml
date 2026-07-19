@@ -7,16 +7,16 @@
         tools:replace="android:label">
         <!-- Workaround for CrashHandler -->
         <provider
-            android:name="com.xayah.core.provider.CrashProvider"
-            android:authorities="com.xayah.core.provider.CrashProvider.alpha"
+            android:name="com.jigar.core.provider.CrashProvider"
+            android:authorities="com.jigar.core.provider.CrashProvider.alpha"
             android:exported="false"
             android:initOrder="101"
             tools:replace="android:authorities" />
         <!-- End -->
 
         <provider
-            android:name="com.xayah.core.provider.FileSharingProvider"
-            android:authorities="com.xayah.core.provider.FileSharingProvider.alpha"
+            android:name="com.jigar.core.provider.FileSharingProvider"
+            android:authorities="com.jigar.core.provider.FileSharingProvider.alpha"
             android:exported="false"
             android:grantUriPermissions="true"
             tools:replace="android:authorities">

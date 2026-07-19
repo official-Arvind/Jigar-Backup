@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.xayah.core.work"
+    namespace = "com.jigar.core.work"
 }
 
 dependencies {
