@@ -1,4 +1,4 @@
-package com.jigar.Jigar Backup
+package com.jigar.backup
 
 import android.app.Application
 import androidx.hilt.work.HiltWorkerFactory
@@ -9,7 +9,7 @@ import java.security.Security
 import javax.inject.Inject
 
 @HiltAndroidApp
-class Jigar BackupApplication : Application(), Configuration.Provider {
+class JigarBackupApplication : Application(), Configuration.Provider {
     companion object {
         lateinit var application: Application
     }

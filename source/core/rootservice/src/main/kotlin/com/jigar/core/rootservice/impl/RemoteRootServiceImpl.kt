@@ -131,7 +131,7 @@ internal class RemoteRootServiceImpl(private val context: Context) : IRemoteRoot
         val parcel = Parcel.obtain()
         parcel.setDataPosition(0)
         block(parcel)
-        val tmpFile = File.createTempFile("Jigar Backup-parcel-", ".tmp", context.cacheDir)
+        val tmpFile = File.createTempFile("JigarBackup-parcel-", ".tmp", context.cacheDir)
         tmpFile.delete()
         tmpFile.createNewFile()
         tmpFile.writeBytes(parcel.marshall())

@@ -1,10 +1,10 @@
 package com.jigar.core.common.util
 
 /**
- * For modules, use reflection to get [com.jigar.Jigar Backup.BuildConfig].
+ * For modules, use reflection to get [com.jigar.backup.BuildConfig].
  */
 private fun fromBuildConfig(key: String): Any? =
-    runCatching { Class.forName("com.jigar.Jigar Backup.BuildConfig").getField(key).get(null) }.getOrNull()
+    runCatching { Class.forName("com.jigar.backup.BuildConfig").getField(key).get(null) }.getOrNull()
 
 object BuildConfigUtil {
     val DEBUG = runCatching { fromBuildConfig("DEBUG") as Boolean }.getOrDefault(false)

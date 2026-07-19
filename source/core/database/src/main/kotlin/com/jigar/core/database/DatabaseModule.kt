@@ -21,7 +21,7 @@ object DatabaseModule {
     @Provides
     @Singleton
     fun provideDatabase(@ApplicationContext context: Context): AppDatabase =
-        Room.databaseBuilder(context, AppDatabase::class.java, "database-Jigar Backup")
+        Room.databaseBuilder(context, AppDatabase::class.java, "database-JigarBackup")
             .enableMultiInstanceInvalidation()
             .build()
 

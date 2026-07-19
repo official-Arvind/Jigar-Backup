@@ -29,7 +29,7 @@ import com.jigar.core.ui.component.LabelSmallText
 import com.jigar.core.ui.component.TopBarTitle
 import com.jigar.core.ui.component.paddingBottom
 import com.jigar.core.ui.component.paddingHorizontal
-import com.jigar.core.ui.theme.Jigar BackupTheme
+import com.jigar.core.ui.theme.JigarBackupTheme
 import com.jigar.core.ui.theme.JetbrainsMonoFamily
 import com.jigar.core.ui.theme.ThemedColorSchemeKeyTokens
 import com.jigar.core.ui.theme.value
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         val crashInfo = intent.getStringExtra("crashInfo") ?: ""
 
         setContent {
-            Jigar BackupTheme {
+            JigarBackupTheme {
                 CompositionLocalProvider(
                     androidx.lifecycle.compose.LocalLifecycleOwner provides androidx.compose.ui.platform.LocalLifecycleOwner.current,
                 ) {

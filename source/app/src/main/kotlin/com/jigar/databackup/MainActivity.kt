@@ -1,4 +1,4 @@
-package com.jigar.Jigar Backup
+package com.jigar.backup
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -13,7 +13,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.jigar.core.ui.component.AnimatedNavHost
 import com.jigar.core.ui.route.MainRoutes
-import com.jigar.core.ui.theme.Jigar BackupTheme
+import com.jigar.core.ui.theme.JigarBackupTheme
 import com.jigar.core.ui.util.LocalNavController
 import com.jigar.core.util.command.BaseUtil
 import com.jigar.feature.main.cloud.PageCloud
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         setContent {
-            Jigar BackupTheme {
+            JigarBackupTheme {
                 val navController = rememberNavController()
                 CompositionLocalProvider(
                     LocalNavController provides navController,

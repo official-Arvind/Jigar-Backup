@@ -57,7 +57,7 @@ fun darkTheme() = run {
 }
 
 @Composable
-fun Jigar BackupTheme(
+fun JigarBackupTheme(
     content: @Composable () -> Unit,
 ) {
     val context = LocalContext.current

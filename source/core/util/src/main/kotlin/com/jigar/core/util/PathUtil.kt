@@ -21,7 +21,7 @@ const val ConfigsPackageRestoreName = "package_restore_config.json"
 const val ConfigsMediaRestoreName = "media_restore_config.json"
 const val ConfigsConfigurationsName = "configurations.json"
 const val BinArchiveName = "bin.zip"
-const val CloudTmpRelativeDir = "Jigar BackupTmpDir"
+const val CloudTmpRelativeDir = "JigarBackupTmpDir"
 
 fun Context.filesDir(): String = filesDir.path
 fun Context.logDir(): String = "${filesDir()}/$LogRelativeDir"

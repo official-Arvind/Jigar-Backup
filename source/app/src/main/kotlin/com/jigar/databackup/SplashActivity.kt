@@ -1,4 +1,4 @@
-package com.jigar.Jigar Backup
+package com.jigar.backup
 
 import android.annotation.SuppressLint
 import android.content.Intent

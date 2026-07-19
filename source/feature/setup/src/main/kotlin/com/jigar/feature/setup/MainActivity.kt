@@ -10,7 +10,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.core.view.WindowCompat
 import androidx.navigation.compose.rememberNavController
-import com.jigar.core.ui.theme.Jigar BackupTheme
+import com.jigar.core.ui.theme.JigarBackupTheme
 import com.jigar.core.ui.util.LocalNavController
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
 
         setContent {
-            Jigar BackupTheme {
+            JigarBackupTheme {
                 val navController = rememberNavController()
                 CompositionLocalProvider(
                     LocalNavController provides navController,

@@ -1,5 +1,5 @@
 package com.jigar.core.util
 
 object ActivityUtil {
-    val classMainActivity: Class<*> = Class.forName("com.jigar.Jigar Backup.MainActivity")
+    val classMainActivity: Class<*> = Class.forName("com.jigar.backup.MainActivity")
 }

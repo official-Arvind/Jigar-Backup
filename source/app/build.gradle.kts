@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.jigar.Jigar Backup"
+    namespace = "com.jigar.backup"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.jigar.Jigar Backup"
+        applicationId = "com.jigar.backup"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()

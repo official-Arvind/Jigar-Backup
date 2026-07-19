@@ -31,9 +31,9 @@ object ConstantUtil {
         "Download" to "${DEFAULT_PATH_PARENT}/Download",
     )
 
-    const val DOC_LINK = "https://Jigar BackupOfficial.github.io"
-    const val GITHUB_LINK = "https://github.com/official-Arvind/Android-Jigar Backup"
-    const val CHAT_LINK = "https://t.me/Jigar Backupchat"
+    const val DOC_LINK = "https://JigarBackupOfficial.github.io"
+    const val GITHUB_LINK = "https://github.com/official-Arvind/Android-JigarBackup"
+    const val CHAT_LINK = "https://t.me/JigarBackupchat"
     const val DONATE_BMAC_LINK = "https://buymeacoffee.com/official-Arvind"
     const val DONATE_PAYPAL_LINK = "https://paypal.me/official-Arvind"
     const val DONATE_AFD_LINK = "https://afdian.net/a/official-Arvind"
