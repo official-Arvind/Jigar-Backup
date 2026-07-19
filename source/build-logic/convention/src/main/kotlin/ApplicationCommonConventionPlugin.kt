@@ -14,7 +14,7 @@ private fun Project.configureCommon() {
     extensions.getByType<ApplicationExtension>().apply {
         signingConfigs {
             create("release") {
-                storeFile = file(System.getenv("STORE_FILE") ?: "placeholder")
+                storeFile = file(System.getenv("STORE_FILE")?.takeIf { it.isNotBlank() } ?: "placeholder")
                 storePassword = System.getenv("STORE_PASSWORD") ?: ""
                 keyAlias = System.getenv("KEY_ALIAS") ?: ""
                 keyPassword = System.getenv("KEY_PASSWORD") ?: ""
