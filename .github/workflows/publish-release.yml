@@ -56,7 +56,7 @@ jobs:
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           # Maximize RAM (4GB to Gradle) and enable global caching for standard 7GB GitHub runners
           GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx4g -XX:+UseG1GC -Dorg.gradle.parallel=true -Dorg.gradle.caching=true"
-        run: ./gradlew assembleRelease --no-daemon --parallel --build-cache
+        run: ./gradlew assemblePremiumRelease --no-daemon --parallel --build-cache
 
       - name: Publish Release to GitHub
         uses: softprops/action-gh-release@v1
@@ -64,6 +64,6 @@ jobs:
           tag_name: ${{ github.event.inputs.version }}
           name: "🚀 Jigar Backup ${{ github.event.inputs.version }}"
           body_path: release_notes.md
-          files: source/app/build/outputs/apk/release/*.apk
+          files: source/app/build/outputs/apk/*/release/*.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
