@@ -56,7 +56,7 @@ jobs:
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           # Maximize RAM (4GB to Gradle) and enable global caching for standard 7GB GitHub runners
           GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx4g -XX:+UseG1GC -Dorg.gradle.parallel=true -Dorg.gradle.caching=true"
-        run: ./gradlew assemblePremiumRelease --no-daemon --parallel --build-cache
+        run: ./gradlew assembleArm64-v8aPremiumRelease assembleArmeabi-v7aPremiumRelease assembleX86PremiumRelease assembleX86_64PremiumRelease --no-daemon --parallel --build-cache
 
       - name: Publish Release to GitHub
         uses: softprops/action-gh-release@v1
